@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Citizen Login</h1>
+        <form method="POST" action="/login">
+            <input type="text" name="username" placeholder="Enter username" required>
+            <input type="emai" name="Email" placeholder="Enter email" required>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+            <select name="status" required>
+                <option value="">Select Status</option>
+                <option value="OK">OK</option>
+                <option value="HELP">HELP</option>
+                <option value="EMERGENCY">EMERGENCY</option>
+            </select>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/register">Register here</a></p>
+    </div>
+</body>
+</html>

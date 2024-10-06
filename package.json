@@ -1,0 +1,24 @@
+{
+  "name": "mis",
+  "version": "1.0.0",
+  "description": "This is the final project for group 1 MIS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UMU-Allen/MIS.git"
+  },
+  "author": "JOSEPH and Hellen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UMU-Allen/MIS/issues"
+  },
+  "homepage": "https://github.com/UMU-Allen/MIS#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
+  }
+}
